@@ -12,6 +12,7 @@
 		9A01F35B2330AC600017AD75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A01F3592330AC600017AD75 /* Main.storyboard */; };
 		9A01F35D2330AC620017AD75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A01F35C2330AC620017AD75 /* Assets.xcassets */; };
 		9A01F3602330AC620017AD75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A01F35E2330AC620017AD75 /* LaunchScreen.storyboard */; };
+		9A01F3682330AE5C0017AD75 /* demoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A01F3672330AE5C0017AD75 /* demoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9A01F35C2330AC620017AD75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A01F35F2330AC620017AD75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A01F3612330AC620017AD75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A01F3672330AE5C0017AD75 /* demoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				9A01F3552330AC600017AD75 /* AppDelegate.swift */,
 				9A01F3572330AC600017AD75 /* ViewController.swift */,
 				9A01F3592330AC600017AD75 /* Main.storyboard */,
+				9A01F3672330AE5C0017AD75 /* demoCollectionViewCell.swift */,
 				9A01F35C2330AC620017AD75 /* Assets.xcassets */,
 				9A01F35E2330AC620017AD75 /* LaunchScreen.storyboard */,
 				9A01F3612330AC620017AD75 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A01F3582330AC600017AD75 /* ViewController.swift in Sources */,
+				9A01F3682330AE5C0017AD75 /* demoCollectionViewCell.swift in Sources */,
 				9A01F3562330AC600017AD75 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,14 +286,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5Q5CK74UB7;
 				INFOPLIST_FILE = collectionViewFlowLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.collectionViewFlowLayoutDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.gaintz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = gaintzDevlopment;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,14 +305,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5Q5CK74UB7;
 				INFOPLIST_FILE = collectionViewFlowLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.collectionViewFlowLayoutDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.gaintz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = gaintzDevlopment;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
